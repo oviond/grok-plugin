@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "oviond": {
+      "type": "http",
+      "url": "https://api.oviond.com/mcp"
+    }
+  }
+}

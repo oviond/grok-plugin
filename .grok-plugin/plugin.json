@@ -1,0 +1,17 @@
+{
+  "name": "oviond",
+  "version": "1.0.0",
+  "description": "Build and maintain white-label client marketing reports in Oviond \u2014 create clients, connect marketing datasources, configure data widgets, and schedule automated delivery. Hosted MCP at api.oviond.com, OAuth sign-in on first connect.",
+  "author": {
+    "name": "Oviond",
+    "url": "https://www.oviond.com"
+  },
+  "homepage": "https://www.oviond.com",
+  "repository": "https://github.com/oviond/grok-plugin",
+  "license": "MIT",
+  "keywords": [
+    "oviond",
+    "oviond mcp",
+    "oviond report"
+  ]
+}
