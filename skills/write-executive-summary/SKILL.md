@@ -79,7 +79,8 @@ a summary that contains them is safe. Anything else in braces stays literal.
 
 `preview_report` renders the live report in the conversation. Read the summary
 in place — beside the charts, at the width the client sees it — rather than
-trusting the Markdown.
+trusting the Markdown. Where the host won't embed an external page, the tool
+falls back to the report's shareable URL; open that instead.
 
 ## Writing it well
 
