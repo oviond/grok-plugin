@@ -49,7 +49,7 @@ exactly the permissions of the signed-in user — an admin sees every client, a
 client-scoped user sees only theirs.
 
 The plugin ships no hooks, no scripts and no commands. It executes nothing on
-your machine: one remote MCP server and two Markdown skills.
+your machine: one remote MCP server and four Markdown skills.
 
 ## Requirements
 
