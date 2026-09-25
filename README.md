@@ -15,18 +15,20 @@ does not use one.
 
 ## What you get
 
-**The hosted Oviond MCP server** — 211 tools across clients, reports, pages,
+**The hosted Oviond MCP server** — 151 tools across clients, reports, pages,
 widgets, datasources, goals, calculated metrics, templates, saved sections,
 themes and branding, automations, email, PDF exports, and account settings.
 Everything is scoped to the account and the permissions of the user who signed
 in.
 
-**Two skills** that tell the agent what order to do things in:
+**Four skills** that tell the agent what order to do things in:
 
 | Skill | For |
 |---|---|
 | `build-client-report` | Onboarding a client and building their first report — linking datasources, discovering a datasource's metrics and dimensions before configuring widgets, and reading the data back |
-| `monthly-client-recap` | Closing out a month — moving the report to the new period, refreshing, checking it, and delivering it by PDF, email or a recurring automation |
+| `monthly-client-recap` | Closing out a month — moving the report to the new period, refreshing, checking it, and delivering it by PDF or a recurring automation |
+| `fix-broken-report` | A report showing demo numbers, stale widgets, or one that never sent — the four causes, in the order worth checking them |
+| `write-executive-summary` | The written commentary beside the numbers, drawn from what the report actually shows so the prose cannot contradict the charts |
 
 ## Authentication
 

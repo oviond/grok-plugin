@@ -81,13 +81,15 @@ Four widget types are not vendor datasources:
 goal or calculated metric has to exist first (`create_goal`,
 `create_calculated_metric`), then the widget that points at it.
 
-`add_report_section` drops in a whole block of widgets at once when a section
-already exists as a saved asset (`list_assets`).
+`add_asset_to_page` drops in a whole block of widgets at once when a section
+already exists as a saved asset (`list_assets`) — pass the `page_id` from
+`list_pages`.
 
 ## Reading the numbers back
 
-Data is fetched **server-side, right after the widget is written**. There is no
-ad-hoc query tool. The write returns before the numbers land, so a widget in
+Data is fetched **server-side, right after the widget is written**. To read
+figures without touching a report — an ad-hoc question, a period comparison —
+`query_data` pulls live values for any date range and saves nothing. The write returns before the numbers land, so a widget in
 state `loading` straight after a write is normal.
 
 `get_widget_data` takes either `widget_ids` (up to 200 — the widgets you just

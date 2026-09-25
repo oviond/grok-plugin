@@ -72,8 +72,10 @@ datasource whose account list comes back empty, means the connection is broken;
 `get_pdf_status` says when the file is ready. Don't promise a link until it
 reports done. PDFs are for multi-page REPORTS; a DASHBOARD doesn't export one.
 
-**One-off email** — `send_email` with the report attached or linked.
-`list_email_senders` shows which verified sender addresses the account has.
+**A link to send by hand** — `preview_report` renders the live report in the
+conversation and gives you its shareable URL. Composing and sending a one-off
+email is done in the app; the connector schedules delivery rather than sending
+ad-hoc mail.
 
 **Every month, automatically** — `create_automation`. Create it **paused**, send
 a `test_automation` to the user's own address, and only `unpause_automation`
